@@ -1,0 +1,62 @@
+---
+layout: "base.njk"
+
+---
+
+
+ <div id="wrapper">
+    
+    <div id="main">
+
+        <section id="intro">
+			
+			<header>
+			   <h2>All Posts Here</h2>
+			   <p>Another fine responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
+			</header>
+		</section>
+
+        <section id="sidebar">
+                     <section>
+				<div class="mini-posts">
+
+            {%- for post in collections.post | reverse -%}
+			 
+        <article class="mini-post">
+				<header>
+					<h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+						<time class="published" datetime="">{{ post.data.date | postDate}}</time>
+						<a href="#" class="author"><img src="{{ post.data.avatar }}" alt="" /></a>
+					</header>
+			<a href="{{ post.url }}" class="image"><img src="{{ post.data.icon }}" alt="" /></a>
+		</article>
+       
+     {%- endfor %}
+		
+        </section>
+     </div>
+    <article class="post">
+                          
+								
+		<footer>
+		<ul class="actions">
+		<li>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Prev</a>{% endif %}</li>
+        {%- for pageEntry in pagination.pages %}
+            <li><a href="{{ pagination.hrefs[ loop.index0 ] }}">{{ loop.index }}</a></li>
+        {%- endfor %}
+        <li>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Next</a>{% endif %}</li>
+										
+		</ul>
+		</footer>
+								
+	</article>
+   </div>
+
+</div>
+
+<!-- Scripts -->
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/browser.min.js"></script>
+			<script src="/assets/js/breakpoints.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/main.js"></script>

@@ -1,0 +1,74 @@
+---
+layout: "base.njk"
+---
+
+        <div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2><a href="#">{{ title }}</a></h2>
+										<p>{{ subtitle }}</p>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2015-11-01">{{ date | postDate }}</time>
+										<a href="#" class="author"><span class="name">{{ author }}</span><img src="{{ avatar }}" alt="" /></a>
+									</div>
+								</header>
+								<span class="image featured"><img src="{{ image }}" alt="" /></span>
+                                
+								{{ content | safe }}
+                                
+                                <footer>
+									<ul class="stats">
+										<li><a href="#">General</a></li>
+										<li><a href="#" class="icon solid fa-heart">28</a></li>
+										
+
+									</ul>
+								</footer>
+							</article>
+							</div>
+
+
+				{%- if collections.post %}
+                {%- set previousPost = collections.post | getPreviousCollectionItem %}
+                {%- set nextPost = collections.post | getNextCollectionItem %}
+                 {%- if nextPost or previousPost %}
+                <ul class="">
+	{%- if previousPost %}<li>Previous: <a class="title" href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+	{%- if nextPost %}<li>Next: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+                 </ul>
+                {%- endif %}
+                {%- endif %}	
+
+<article class="post">
+                          
+								
+								<footer>
+									<ul class="actions">
+										<li><a href="/" class="button large">Back to home</a></li>
+									</ul>
+									<ul class="stats">
+										<li><a href="/pages/archive" class="">See All Blogs →</a></li>
+										
+									</ul>
+								</footer>
+								
+							</article>
+		
+			</div>
+
+		<!-- Scripts -->
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/browser.min.js"></script>
+			<script src="/assets/js/breakpoints.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/main.js"></script>
+
+	</body>
+</html>

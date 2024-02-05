@@ -1,0 +1,64 @@
+---
+layout: "base.njk"
+---
+
+
+ <div id="wrapper">
+    
+    
+            {%- for post in collections.tempus | reverse -%}
+			 {% if loop.index0 < 4 %}
+        <article class="post">
+                          
+								<header>
+									<div class="title">
+										
+										<h2><a href="{{ post.url }}">{{ post.data.title }} </a></h2>
+										<p>{{ post.data.subtitle }} </p>
+										
+									</div>
+									<div class="meta">
+										<time class="published" datetime="">{{ post.data.date | postDate}}</time>
+										<a href="#" class="author"><span class="name">{{ post.data.author }}</span><img src="{{ post.data.avatar }}" alt="" /></a>
+									</div>
+								</header>
+								<a href="/single" class="image featured"><img src="{{ post.data.icon }}" alt="" /></a>
+								<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+								<footer>
+									<ul class="actions">
+										<li><a href="{{ post.url }}" class="button large">Continue Reading</a></li>
+									</ul>
+									<ul class="stats">
+										<li><a href="#">General</a></li>
+										<li><a href="#" class="icon solid fa-heart">28</a></li>
+										
+									</ul>
+								</footer>
+								
+							</article>
+       {%- endif %}
+     {%- endfor %}
+		
+    <article class="post">
+                          
+								
+								<footer>
+									<ul class="actions">
+										<li><a href="/" class="button large">Back to home</a></li>
+									</ul>
+									<ul class="stats">
+										<li><a href="/pages/archive" class="">See All Blogs →</a></li>
+										
+									</ul>
+								</footer>
+								
+							</article>
+   
+</div>
+
+<!-- Scripts -->
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/browser.min.js"></script>
+			<script src="/assets/js/breakpoints.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/main.js"></script>

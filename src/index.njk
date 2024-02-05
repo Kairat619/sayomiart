@@ -1,0 +1,268 @@
+---
+title: homepage
+layout: 'base.njk'
+pagination:
+  data: collections.featured
+  size: 3
+  alias: posts
+---
+
+		<div id="wrapper">
+				<!-- Main -->
+					<div id="main">
+						<section id="intro">
+								<a href="#" class="logo"><img src="./images/logo.jpg" alt="" /></a>
+								<header>
+									<h2>Sayome Art</h2>
+									<p>Another fine responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
+								</header>
+							</section>
+
+					
+                       {%- for post in collections.featured | reverse -%}
+					    {% if loop.index0 < 3 %}
+						<article class="post">
+                          
+								<header>
+									<div class="title">
+										
+										<h2><a href="{{ post.url }}">{{ post.data.title }} </a></h2>
+										<p>{{ post.data.subtitle }} </p>
+										
+									</div>
+									<div class="meta">
+										<time class="published" datetime="">{{ post.data.date | postDate}}</time>
+										<a href="#" class="author"><span class="name">{{ post.data.author }}</span><img src="{{ post.data.avatar }}" alt="" /></a>
+									</div>
+								</header>
+								<a href="/single" class="image featured"><img src="{{ post.data.image }}" alt="" /></a>
+								<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+								<footer>
+									<ul class="actions">
+										<li><a href="{{ post.url }}" class="button large">Continue Reading</a></li>
+									</ul>
+									<ul class="stats">
+										<li><a href="#">General</a></li>
+										<li><a href="#" class="icon solid fa-heart">28</a></li>
+										
+									</ul>
+								</footer>
+								
+							</article>
+							{%- endif %}
+                         {%- endfor %}
+						<!-- Post 
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2><a href="single.html">Ultricies sed magna euismod enim vitae gravida</a></h2>
+										<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2015-10-25">October 25, 2015</time>
+										<a href="#" class="author"><span class="name">Jane Doe</span><img src="./images/avatar.jpg" alt="" /></a>
+									</div>
+								</header>
+								<a href="single.html" class="image featured"><img src="./images/pic02.jpg" alt="" /></a>
+								<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper.</p>
+								<footer>
+									<ul class="actions">
+										<li><a href="single.html" class="button large">Continue Reading</a></li>
+									</ul>
+									<ul class="stats">
+										<li><a href="#">General</a></li>
+										<li><a href="#" class="icon solid fa-heart">28</a></li>
+										<li><a href="#" class="icon solid fa-comment">128</a></li>
+									</ul>
+								</footer>
+							</article> -->
+
+						<!-- Post  
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2><a href="single.html">Euismod et accumsan</a></h2>
+										<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2015-10-22">October 22, 2015</time>
+										<a href="#" class="author"><span class="name">Jane Doe</span><img src="./images/avatar.jpg" alt="" /></a>
+									</div>
+								</header>
+								<a href="single.html" class="image featured"><img src="./images/pic03.jpg" alt="" /></a>
+								<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Cras vehicula tellus eu ligula viverra, ac fringilla turpis suscipit. Quisque vestibulum rhoncus ligula.</p>
+								<footer>
+									<ul class="actions">
+										<li><a href="single.html" class="button large">Continue Reading</a></li>
+									</ul>
+									<ul class="stats">
+										<li><a href="#">General</a></li>
+										<li><a href="#" class="icon solid fa-heart">28</a></li>
+										<li><a href="#" class="icon solid fa-comment">128</a></li>
+									</ul>
+								</footer>
+							</article>  --> 
+
+						
+
+						<!-- Pagination 
+							<ul class="actions pagination">
+                              {% if pagination.href.previous %}
+								<li> 
+									<a href="{{pagination.href.previous}}" class="">Previous Page</a>
+									</li>{% endif %}
+                                 {% if pagination.href.next %}
+								<li>
+									<a href="{{pagination.href.next}}" class="">Next Page</a>
+									</li>{% endif %}
+							</ul>
+
+					</div> -->
+
+				<!-- Sidebar -->
+					<section id="sidebar">
+
+						<!-- Intro 
+							<section id="intro">
+								<a href="#" class="logo"><img src="./images/logo.jpg" alt="" /></a>
+								<header>
+									<h2>Sayome Art</h2>
+									<p>Another fine responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
+								</header>
+							</section>-->
+
+						<!-- Mini Posts -->
+							<section>
+								<div class="mini-posts">
+
+									<!-- Mini Post -->
+							{%- for post in collections.lorem | reverse -%}
+					        {% if loop.index0 < 1 %}
+										<article class="mini-post">
+											<header>
+												<h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+												<time class="published" datetime="">{{ post.data.date | postDate}}</time>
+												<a href="#" class="author"><img src="{{ post.data.avatar }}" alt="" /></a>
+											</header>
+											<a href="{{ post.url }}" class="image"><img src="{{ post.data.icon }}" alt="" /></a>
+										</article>
+                                      {%- endif %}
+                                    {%- endfor %}
+									<!-- Mini Post -->
+									{%- for post in collections.ipsum | reverse -%}
+					                {% if loop.index0 < 1 %}
+										<article class="mini-post">
+											<header>
+												<h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+												<time class="published" datetime="">{{ post.data.date | postDate}}</time>
+												<a href="#" class="author"><img src="{{ post.data.avatar }}" alt="" /></a>
+											</header>
+											<a href="{{ post.url }}" class="image"><img src="{{ post.data.icon }}" alt="" /></a>
+										</article>
+                                      {%- endif %}
+                                    {%- endfor %}
+									<!-- Mini Post -->
+									{%- for post in collections.feugiat | reverse -%}
+					                {% if loop.index0 < 1 %}
+										<article class="mini-post">
+											<header>
+												<h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+												<time class="published" datetime="">{{ post.data.date | postDate}}</time>
+												<a href="#" class="author"><img src="{{ post.data.avatar }}" alt="" /></a>
+											</header>
+											<a href="{{ post.url }}" class="image"><img src="{{ post.data.icon }}" alt="" /></a>
+										</article>
+                                       {%- endif %}
+                                    {%- endfor %}
+									<!-- Mini Post -->
+									{%- for post in collections.tempus | reverse -%}
+					                {% if loop.index0 < 1 %}
+										<article class="mini-post">
+											<header>
+												<h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+												<time class="published" datetime="">{{ post.data.date | postDate}}</time>
+												<a href="#" class="author"><img src="{{ post.data.avatar }}" alt="" /></a>
+											</header>
+											<a href="{{ post.url }}" class="image"><img src="{{ post.data.icon }}" alt="" /></a>
+										</article>
+                                    {%- endif %}
+                                    {%- endfor %}
+								</div>
+							</section>
+
+						<!-- Posts List -->
+						{%- for post in collections.post | reverse -%}
+					        {% if loop.index0 < 6 %}
+							<section>
+								<ul class="posts">
+						
+									
+										<article>
+											<header>
+												<h3><a href="{{ post.url }}">{{ post.data.subtitle }}</a></h3>
+												<time class="published" datetime=" ">{{ post.data.date | postDate}}</time>
+											</header>
+											<a href="{{ post.url }}" class="image"><img src="{{ post.data.pic }}" alt="" /></a>
+										</article>
+									
+									<!-- <li>
+										<article>
+											<header>
+												<h3><a href="single.html">Convallis maximus nisl mattis nunc id lorem</a></h3>
+												<time class="published" datetime="2015-10-15">October 15, 2015</time>
+											</header>
+											<a href="single.html" class="image"><img src="./images/pic09.jpg" alt="" /></a>
+										</article>
+									</li>
+									<li>
+										<article>
+											<header>
+												<h3><a href="single.html">Euismod amet placerat vivamus porttitor</a></h3>
+												<time class="published" datetime="2015-10-10">October 10, 2015</time>
+											</header>
+											<a href="single.html" class="image"><img src="./images/pic10.jpg" alt="" /></a>
+										</article>
+									</li>
+									<li>
+										<article>
+											<header>
+												<h3><a href="single.html">Magna enim accumsan tortor cursus ultricies</a></h3>
+												<time class="published" datetime="2015-10-08">October 8, 2015</time>
+											</header>
+											<a href="single.html" class="image"><img src="./images/pic11.jpg" alt="" /></a>
+										</article>
+									</li>
+									<li>
+										<article>
+											<header>
+												<h3><a href="single">Congue ullam corper lorem ipsum dolor</a></h3>
+												<time class="published" datetime="2015-10-06">October 7, 2015</time>
+											</header>
+											<a href="single.html" class="image"><img src="./images/pic12.jpg" alt="" /></a>
+										</article>
+									</li> -->
+									
+								</ul>
+							</section>
+                                  {%- endif %}
+                                    {%- endfor %}
+						    <!-- About -->
+                                <section class="blurb">
+		                         <h2>About</h2>
+								<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod amet placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at phasellus sed ultricies.</p>
+								<ul class="actions">
+									<li><a href="#" class="button">Learn More</a></li>
+								</ul>
+							</section>
+
+					</section>
+                </div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/browser.min.js"></script>
+			<script src="/assets/js/breakpoints.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/main.js"></script>
+

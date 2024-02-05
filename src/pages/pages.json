@@ -1,0 +1,14 @@
+{
+     "layout": "base.njk",
+     "pagination": {
+        "data": "collections",
+        "size": 6,
+        "alias":"posts",
+        "collections":["post","featured","lorem","ipsum","feugiat","tempus"],
+        "reverse":"true"
+             
+
+    }
+     
+
+}
