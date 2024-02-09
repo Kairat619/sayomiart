@@ -3,12 +3,12 @@ const { DateTime } = require("luxon");
 
 module.exports = function(eleventyConfig) {
 
-  eleventyConfig.addPassthroughCopy("/src/assets/css/main.css");
-    eleventyConfig.addPassthroughCopy("/src/assets");
-    eleventyConfig.addPassthroughCopy("/src/admin");
-  eleventyConfig.addPassthroughCopy("/src/images");
-  eleventyConfig.addPassthroughCopy("/src/_redirects");
-  eleventyConfig.addPassthroughCopy({ '/src/robots.txt': '/robots.txt' });
+  eleventyConfig.addPassthroughCopy("./src/assets/css/main.css");
+    eleventyConfig.addPassthroughCopy("./src/assets");
+    eleventyConfig.addPassthroughCopy("./src/admin");
+  eleventyConfig.addPassthroughCopy("./src/images");
+  eleventyConfig.addPassthroughCopy("./src/_redirects");
+  eleventyConfig.addPassthroughCopy({ './src/robots.txt': '/robots.txt' });
 
 // open on npm start and watch CSS files for changes - doesn't trigger 11ty rebuild
 eleventyConfig.setBrowserSyncConfig({
