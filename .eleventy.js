@@ -3,12 +3,20 @@ const { DateTime } = require("luxon");
 
 module.exports = function(eleventyConfig) {
 
-    eleventyConfig.addPassthroughCopy("/src/assets/css");
+  eleventyConfig.addPassthroughCopy('/src/assets/css/**/*.css');
     eleventyConfig.addPassthroughCopy("/src/assets");
     eleventyConfig.addPassthroughCopy("/src/admin");
-  eleventyConfig.addPassthroughCopy("/src/assets/webfonts");
   eleventyConfig.addPassthroughCopy("/src/images");
-  eleventyConfig.addPassthroughCopy("/src/assets/js");
+  eleventyConfig.addPassthroughCopy('./src/_redirects');
+  eleventyConfig.addPassthroughCopy({ './src/robots.txt': '/robots.txt' });
+
+// open on npm start and watch CSS files for changes - doesn't trigger 11ty rebuild
+eleventyConfig.setBrowserSyncConfig({
+  open: true,
+  files: './public/assets/css/**/*.css',
+});
+
+
   eleventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
   });
