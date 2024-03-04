@@ -20,5 +20,8 @@ tags:
 icon: /images/pic07.jpg
 avatar: /images/avatar.jpg
 ---
+The job of the graphic designer may have changed a lot lately, but the good news is that the discipline is still in demand more than ever indeed. As businesses battle to survive the coming recession, good design will help them stand out visually, connect with their audiences, and create the brand loyalty they so desperately need.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel. Donec ultrices tincidunt arcu non sodales. Mattis rhoncus urna neque viverra justo nec ultrices dui sapien. Pretium quam vulputate dignissim suspendisse in est. Lobortis mattis aliquam faucibus purus in massa tempor nec. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. Vulputate eu scelerisque felis imperdiet proin. Nisl nisi scelerisque eu ultrices.
+
+
+That means the best graphic designers should not want for work in 2023, although at the same time, you may be expected to do more than ever. It's no longer good enough to only design for print or even digital. There's also motion, AR, VR, mixed reality and more. The good news is that good design is always good, whatever the platform. So as you stick to the same design fundamentals that have carried you so far, you should be in a strong place.
