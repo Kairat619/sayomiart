@@ -18,8 +18,8 @@ tags:
 icon: /images/pic07.jpg
 avatar: /images/avatar.jpg
 ---
-Much like the impact of photography on the art world in the 19th century, we find ourselves in a profound change in the world of graphic design trends. Artificial intelligence is at the center of this creative shift, altering both our methods of creation and our visual styles.\
-\
-1. Future fusion
+Much like the impact of photography on the art world in the 19th century, we find ourselves in a profound change in the world of graphic design trends. Artificial intelligence is at the center of this creative shift, altering both our methods of creation and our visual styles.
+
+1. #### Future fusion
 
 This 2024 design trend, Future Fusion, is all about juxtaposition. The color palette shifts dramatically, with deep browns, blues, and blacks as the foundation, punctuated by vibrant neon purples and pinks to infuse vitality into your brand within the digital realm.
