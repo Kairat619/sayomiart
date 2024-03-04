@@ -1,6 +1,6 @@
 ---
 pic: /images/pic08.jpg
-title: The biggest trends in graphic design for 2024
+title: The biggest trends in design for 2024
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
   Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae
   delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio
