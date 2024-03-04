@@ -23,4 +23,4 @@ This 2024 design trend, Future Fusion, is all about juxtaposition. The color pal
 \
 Textures embrace a gritty, dark aesthetic incorporating glitchy elements, sharp edges, and digital fonts that are balanced with vibrant colors. This approach harmonizes the cutting-edge with the human, making your brand more relatable and approachable in the ever-evolving tech landscape.
 
-![](https://i.ibb.co.com/MGLBxd1/410151356-734102301931380-6954851838336745439-n.jpg)
+![](https://i.ibb.co.com/F0tHLpY/410151356-734102301931380-6954851838336745439-n.jpg)
