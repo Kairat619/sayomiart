@@ -6,7 +6,7 @@ author: Kairat Zhansaya
 date: 2021-06-01
 avatar: /images/avatar.jpg
 image: /images/pic10.jpg
-tags: ["post","lorem","ipsum","feugiat","tempus"]
+tags: ["post","design","fashion","game","music"]
 icon: /images/pic06.jpg
 imageAlt: This is a test
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?

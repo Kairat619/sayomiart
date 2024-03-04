@@ -6,7 +6,7 @@ layout: "base.njk"
  <div id="wrapper">
     
     
-            {%- for post in collections.ipsum | reverse -%}
+            {%- for post in collections.design | reverse -%}
 			 {% if loop.index0 < 4 %}
         <article class="post">
                           
@@ -36,10 +36,14 @@ layout: "base.njk"
 								</footer>
 								
 							</article>
-       {%- endif %}
+      {%- endif %}
      {%- endfor %}
-		
-    <article class="post">
+		<div>
+    <ul>
+        
+    </ul>
+</div>
+   <article class="post">
                           
 								
 								<footer>
@@ -53,8 +57,11 @@ layout: "base.njk"
 								</footer>
 								
 							</article>
+
+							
    
 </div>
+
 
 <!-- Scripts -->
 			<script src="/assets/js/jquery.min.js"></script>

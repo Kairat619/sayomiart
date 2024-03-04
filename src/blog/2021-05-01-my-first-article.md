@@ -5,7 +5,7 @@ pic: /images/pic08.jpg
 author: Kairat Zhansaya
 date: 2021-05-01
 avatar: /images/avatar.jpg
-tags: ["post", "featured","lorem","ipsum","feugiat","tempus"]
+tags: ["post", "featured","design","fashion","game","music"]
 icon: /images/pic04.jpg
 image: /images/pic01.jpg
 imageAlt: This is a test
