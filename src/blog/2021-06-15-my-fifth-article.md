@@ -10,6 +10,7 @@ date: 2021-06-15
 tags:
   - post
   - featured
+  - fashion
 imageAlt: This is a test
 icon: /images/pic04.jpg
 avatar: /images/avatar.jpg
