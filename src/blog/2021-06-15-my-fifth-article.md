@@ -28,4 +28,34 @@ Not only is a scarf versatile, but it is also very unique – there are only a f
 
 Minimalist fashion pieces are a staple for everyone who aspires to look stylish.
 
-Typically, they come in simple designs which makes it easy to pair them with any look, on any day and at any time while completing your look and making a fashion statement at the same time.
+Typically, they come in simple designs which makes it easy to pair them with any look, on any day and at any time while completing your look and making a fashion statement at the same time. \
+\
+3. A Sweater Vest:
+
+Third, on the list of fashion trends that can help you look stylish in 2021 is a Sweater Vest.
+
+Gone are the days when sweater vests were worn as part of a school uniform. This piece of clothing has found its way up the fashion ladder and keeps going high.
+
+Want to look stylish in 2021? Pair your sweater vest with a classic white shirt or a puffy long-sleeved top.\
+\
+4. A Leather Jacket:
+
+Besides being a unique alternative to denim jackets, leather jackets provide more room for exploration and they are great for adding a modish feel to your look, or as my fellow Nigerians will say, a ‘jasi’ look.
+
+I particularly love the energy and vibe that leather jackets exude, and I find it incredible that you can style them across multiple looks. 
+
+They can be paired with gowns, skirts, jeans, etc.\
+\
+5. A Turtleneck:
+
+The last item on the list of fashion trends that can help you look stylish in 2021 is a Turtleneck.
+
+Did I hear you say “turtleneck!”?
+
+Hear me out.
+
+There’s more to turtlenecks than simply pairing them with maxi skirts. While maxi skirts are not a bad idea, it is not the best either. If you want to look stylish in 2021, you should consider going beyond the basics.
+
+Like scarves, turtlenecks afford versatility. You can pair turtlenecks with literally every piece of clothing; from straight leather skirts to palazzos, pants, plaid skirts, and a pair of jeans.
+
+For a more stylish look, pair turtlenecks with plaid skirts, palazzos, and pants.
