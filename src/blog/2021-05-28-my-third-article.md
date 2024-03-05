@@ -1,23 +1,30 @@
 ---
-title: My Third Article
-subtitle: Tellus pellentesque eu tincidunt tortor aliquam nulla 
 pic: /images/pic10.jpg
+title: How To Make Lancetfish Paella
+subtitle: Lancetfish Paella is a five-star meal and provides substantial energy
+  when eaten.
+description: Disney Dreamlight Valley features an unbelievable amount of content
+  for players to work through as they decorate their valley and engage with its
+  plethora of beloved Disney characters. When you're not setting furniture or
+  running errands, though, you may find yourself in the kitchen cooking up some
+  dishes.
 author: Kairat Zhansaya
 date: 2021-05-28
-avatar: /images/avatar.jpg
-tags: ['post', 'featured']
-icon: /images/pic04.jpg
-image: /images/pic02.jpg
+tags:
+  - post
+  - featured
+  - game
 imageAlt: This is a test
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
+icon: /images/pic04.jpg
+avatar: /images/avatar.jpg
+image: https://www.gamespot.com/a/uploads/scale_super/679/6794662/4268342-disneydreamlightvalley_20240304140437.jpg
 ---
+Keep in mind that when you see "any seafood", this can also include Clams, Oysters, or Scallops you find on Dazzle Beach, so you don't necessarily have to use up any of your more valuable seafood in order to make this five-star offering.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum facilisis leo vel fringilla. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum. Ut sem nulla pharetra diam sit amet nisl. Est velit egestas dui id ornare. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum. Ut sem viverra aliquet eget. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus a. At augue eget arcu dictum. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Amet aliquam id diam maecenas ultricies mi.
 
-Urna porttitor rhoncus dolor purus non enim praesent elementum facilisis. Molestie nunc non blandit massa enim nec dui nunc mattis. Sem nulla pharetra diam sit amet nisl suscipit. Id eu nisl nunc mi. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Sit amet purus gravida quis blandit. Egestas sed sed risus pretium quam vulputate dignissim suspendisse. Magna fringilla urna porttitor rhoncus dolor. Neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing. Ut eu sem integer vitae. Orci phasellus egestas tellus rutrum tellus. Cras semper auctor neque vitae tempus quam pellentesque nec nam. Dignissim sodales ut eu sem integer vitae justo. Tempus imperdiet nulla malesuada pellentesque elit eget. Lectus urna duis convallis convallis tellus id interdum velit.
 
-Fringilla urna porttitor rhoncus dolor purus. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Etiam non quam lacus suspendisse faucibus interdum. Eget dolor morbi non arcu risus quis varius quam. Senectus et netus et malesuada. Erat pellentesque adipiscing commodo elit at. Diam sit amet nisl suscipit. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Lectus proin nibh nisl condimentum id venenatis. Consequat semper viverra nam libero. Cursus turpis massa tincidunt dui ut ornare. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Purus sit amet luctus venenatis lectus magna fringilla urna. Eget gravida cum sociis natoque penatibus. Tellus elementum sagittis vitae et leo duis ut diam quam. Scelerisque felis imperdiet proin fermentum leo vel orci. Eu facilisis sed odio morbi quis commodo. Sed risus ultricies tristique nulla aliquet.
+The best thing about Lancetfish Paella is that it restores a massive amount of energy, ensuring you'll get a full bar of golden energy for all of the working--or hovering--that you need to do throughout your valley. It's probably not a reasonable option to make with frequency given how many ingredients it needs, but it doesn't hurt to keep some around for when you need big bursts of energy.
 
-Erat nam at lectus urna duis. Pretium nibh ipsum consequat nisl vel pretium lectus quam id. Tristique senectus et netus et malesuada fames. Semper eget duis at tellus at urna. Dictum non consectetur a erat nam at. Non quam lacus suspendisse faucibus interdum posuere lorem. Risus nullam eget felis eget nunc lobortis mattis. Amet nulla facilisi morbi tempus iaculis urna id. Vitae sapien pellentesque habitant morbi tristique senectus et netus. Scelerisque felis imperdiet proin fermentum leo vel orci porta. Eget magna fermentum iaculis eu non diam phasellus vestibulum. Sit amet luctus venenatis lectus magna fringilla. Malesuada fames ac turpis egestas. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Erat pellentesque adipiscing commodo elit. Vel quam elementum pulvinar etiam. Neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing. Eu ultrices vitae auctor eu augue ut. Imperdiet proin fermentum leo vel orci porta non pulvinar.
 
-Volutpat lacus laoreet non curabitur gravida. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor. Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Ipsum consequat nisl vel pretium lectus quam. Est lorem ipsum dolor sit amet. Dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu. Integer eget aliquet nibh praesent tristique magna sit amet purus. Tristique senectus et netus et malesuada fames ac turpis. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Maecenas sed enim ut sem viverra. Ante in nibh mauris cursus mattis molestie a iaculis at. Vitae auctor eu augue ut lectus arcu bibendum at.
+
+Of course, there are so many more recipes in Disney Dreamlight Valley, so when you're ready to do some more cooking, be sure you reference our handy recipe list. For everything else you need to know about this cozy Disney adventure, you can check out our comprehensive guides hub.

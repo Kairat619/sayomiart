@@ -1,23 +1,26 @@
 ---
-title: My First Article
-subtitle: Lorem ipsum dolor sit amet consectetur adipisicing elit
 pic: /images/pic08.jpg
+title: IVE Discuss the ‘Power and Confidence’...
+subtitle: The girl group's I've IVE album is a declaration to defying norms as
+  they eye larger international moves.
+description: "IVE arrived on the K-pop scene in December 2021 and quickly became
+  the industry’s next reliable hitmaker with three addictive yet distinctly
+  unique singles: the exotically intriguing pop of “Eleven,” the snappy,
+  runway-ready throbber “Love Dive,” and the Gloria Gaynor–sampling disco update
+  “After Like.”"
 author: Kairat Zhansaya
-date: 2021-05-01
-avatar: /images/avatar.jpg
-tags: ["post", "featured","design","fashion","game","music"]
-icon: /images/pic04.jpg
-image: /images/pic01.jpg
+date: 2024-03-05T06:20:46.226Z
+tags:
+  - post
+  - featured
+  - music
 imageAlt: This is a test
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
+icon: /images/pic04.jpg
+avatar: /images/avatar.jpg
+image: https://www.billboard.com/wp-content/uploads/2023/04/IVE-cr-Starship-Entertainment-billboard-1548.jpg?w=942&h=623&crop=1&resize=942%2C623
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel. Donec ultrices tincidunt arcu non sodales. Mattis rhoncus urna neque viverra justo nec ultrices dui sapien. Pretium quam vulputate dignissim suspendisse in est. Lobortis mattis aliquam faucibus purus in massa tempor nec. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. Vulputate eu scelerisque felis imperdiet proin. Nisl nisi scelerisque eu ultrices.
-
-Enim nulla aliquet porttitor lacus luctus accumsan. Vulputate mi sit amet mauris commodo quis. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras. Placerat orci nulla pellentesque dignissim. Consequat mauris nunc congue nisi. Nec nam aliquam sem et tortor consequat. Consequat semper viverra nam libero justo laoreet sit amet. Id interdum velit laoreet id donec. Turpis in eu mi bibendum neque. Tincidunt vitae semper quis lectus. Suscipit adipiscing bibendum est ultricies integer quis auctor. Posuere urna nec tincidunt praesent semper. Sagittis id consectetur purus ut faucibus pulvinar elementum. Diam maecenas ultricies mi eget mauris. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Dui sapien eget mi proin sed.
-
-In iaculis nunc sed augue lacus. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum. Consectetur adipiscing elit ut aliquam. Tortor consequat id porta nibh venenatis cras sed. Integer enim neque volutpat ac tincidunt. Pellentesque pulvinar pellentesque habitant morbi. Ut enim blandit volutpat maecenas. Risus quis varius quam quisque id. Turpis tincidunt id aliquet risus. Congue eu consequat ac felis donec.
-
-Aliquam vestibulum morbi blandit cursus risus at. Malesuada fames ac turpis egestas sed tempus. Donec et odio pellentesque diam volutpat commodo sed egestas egestas. Tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus. Enim diam vulputate ut pharetra sit amet aliquam. Est ante in nibh mauris cursus mattis. Viverra ipsum nunc aliquet bibendum enim facilisis gravida neque. Nec ultrices dui sapien eget mi proin sed libero enim. Sed sed risus pretium quam vulputate. Sit amet luctus venenatis lectus magna.
-
-Mauris nunc congue nisi vitae suscipit tellus mauris. Vitae et leo duis ut. Arcu cursus euismod quis viverra nibh. Amet mauris commodo quis imperdiet. Condimentum lacinia quis vel eros donec. Enim neque volutpat ac tincidunt vitae semper quis lectus nulla. Faucibus nisl tincidunt eget nullam. Cursus metus aliquam eleifend mi in nulla. Ut placerat orci nulla pellentesque dignissim enim sit amet. Lobortis feugiat vivamus at augue eget arcu dictum. Nunc faucibus a pellentesque sit amet porttitor. Quis varius quam quisque id diam vel quam elementum pulvinar.
+IVE arrived on the K-pop scene in December 2021 and quickly became the industry’s next reliable hitmaker with three addictive yet distinctly unique singles: the exotically intriguing pop of “Eleven,” the snappy, runway-ready throbber “Love Dive,” and the Gloria Gaynor–sampling disco update “After Like.” But through the differing sounds, the girl group’s identity connected with K-pop fans thanks to undeniable cohesion and confidence to pull off whatever genre or concept came next. That spirit stays strong in their first full-length album, the multidimensional I’ve IVE, which sees the K-pop stars to watch taking the next big step of their career alongside a new U.S. label partner in tow.\
+\
+Even before IVE’s official debut, anticipation was already high for the six-piece led by Yujin and Wonyoung, two of the most popular members from the sensational-but-temporary girl group IZ*ONE (who earned three entries on the World Albums chart and six on World Digital Song Sales during their two-and-a-half years together), as well as fresh faces in eldest member Gaeul, Japan-born Rei, power vocalist Liz, and youngest member Leeseo. From high kicks off the ground to simultaneously spinning and singing, the group developed under Korean super-label Starship Entertainment stood out for moving equally as one, even with varying degrees of original star power between members.\
+\
+source: <https://www.billboard.com/music/pop/ive-interview-first-full-length-album-1235302475/>
