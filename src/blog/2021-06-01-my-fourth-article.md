@@ -1,13 +1,12 @@
 ---
 pic: /images/pic11.jpg
-title: My Fourth Article
-subtitle: Eget nulla facilisi etiam dignissim diam quis
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae
-  delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio
-  aliquam?
+title: "Final Fantasy 7 Rebirth: Fort Condor"
+subtitle: Assault your opponent's stronghold in the Fort Condor minigame
+description: As a remake, Final Fantasy 7 Rebirth still has a lot of callbacks
+  that make long-time fans fondly remember the original. One of those is a
+  certain challenge where you have to defeat an advancing army.
 author: Kairat Zhansaya
-date: 2021-06-01
+date: 2023-08-08T06:46:00.000Z
 tags:
   - post
   - game
