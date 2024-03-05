@@ -16,7 +16,7 @@ icon: /images/pic04.jpg
 avatar: /images/avatar.jpg
 image: https://zeefarh.com.ng/wp-content/uploads/2020/12/The-Top-5-Unique-Fashion-Trends-to-Look-Stylish-in-2021.jpg
 ---
-1. A Scarf: 
+**1. A Scarf:** 
 
 Scarves are one of the fashion trends that is sure to give you a stylish feel. 
 
@@ -24,13 +24,13 @@ If there’s anything that guarantees your being stylish, it is versatility, and
 
 Not only is a scarf versatile, but it is also very unique – there are only a few people who wear scarves as a fashion item.\
 \
-2. A Minimalist Necklace:
+**2. A Minimalist Necklace:**
 
 Minimalist fashion pieces are a staple for everyone who aspires to look stylish.
 
 Typically, they come in simple designs which makes it easy to pair them with any look, on any day and at any time while completing your look and making a fashion statement at the same time. \
 \
-3. A Sweater Vest:
+**3. A Sweater Vest:**
 
 Third, on the list of fashion trends that can help you look stylish in 2021 is a Sweater Vest.
 
@@ -38,7 +38,7 @@ Gone are the days when sweater vests were worn as part of a school uniform. This
 
 Want to look stylish in 2021? Pair your sweater vest with a classic white shirt or a puffy long-sleeved top.\
 \
-4. A Leather Jacket:
+**4. A Leather Jacket:**
 
 Besides being a unique alternative to denim jackets, leather jackets provide more room for exploration and they are great for adding a modish feel to your look, or as my fellow Nigerians will say, a ‘jasi’ look.
 
@@ -46,7 +46,7 @@ I particularly love the energy and vibe that leather jackets exude, and I find i
 
 They can be paired with gowns, skirts, jeans, etc.\
 \
-5. A Turtleneck:
+**5. A Turtleneck:**
 
 The last item on the list of fashion trends that can help you look stylish in 2021 is a Turtleneck.
 
