@@ -22,7 +22,7 @@ layout: "base.njk"
 										<a href="#" class="author"><span class="name">{{ post.data.author }}</span><img src="{{ post.data.avatar }}" alt="" /></a>
 									</div>
 								</header>
-								<a href="/single" class="image featured"><img src="{{ post.data.image }}" alt="" /></a>
+								<a href="/single" class="image featured"><img src="{{ post.data.image  }}" alt="{{ imageAlt }}" width="840" height="341" decoding="async"/></a>
 								<p> {{ post.data.description }} </p>
 								<footer>
 									<ul class="actions">

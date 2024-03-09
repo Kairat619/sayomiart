@@ -28,7 +28,7 @@ layout: "base.njk"
 						<time class="published" datetime="">{{ post.data.date | postDate}}</time>
 						<a href="#" class="author"><img src="{{ post.data.avatar }}" alt="" /></a>
 					</header>
-			<a href="{{ post.url }}" class="image"><img src="{{ post.data.icon }}" alt="" /></a>
+			<a href="{{ post.url }}" class="image"><img src="{{ post.data.image  }}" alt="{{ imageAlt }}" width="351" height="176" decoding="async"  /></a>
 		</article>
        
      {%- endfor %}

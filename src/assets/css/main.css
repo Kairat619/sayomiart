@@ -3624,3 +3624,24 @@ input, select, textarea {
 			}
 
 		}
+
+
+		/*
+		 https://codepen.io/Sero13/pen/Bqdmvr
+		simple like counter
+		
+		.like-counter {
+			color: #000;
+			text-decoration: none;
+			margin-right: 5px;
+			  
+			&:hover {
+			  text-decoration: underline;
+			}
+		  
+		  }
+		  .liked {
+			font-weight: bold;
+		  }
+
+		  */
