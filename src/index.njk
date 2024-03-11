@@ -11,17 +11,32 @@ pagination:
 				<!-- Main -->
 					<div id="main">
 						<section id="intro">
-								<a href="#" class="logo"><img src="./images/logo.jpg" alt="" /></a>
+							<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+                                   <style>
+                                @media (prefers-color-scheme: dark) {
+                                      :root {
+                                            --pagefind-ui-primary: #eeeeee;
+                                            --pagefind-ui-text: #eeeeee;
+                                            --pagefind-ui-background: #152028;
+                                            --pagefind-ui-border: #152028;
+                                            --pagefind-ui-tag: #152028;
+                                                     }
+                                                    }
+                                    </style>
+                                       <div id="search2" class="search2"></div>
+                                        <script src="/pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search2', showImages: false });"></script>
+
+								<a href="#" class="logo"><img src="" alt="" /></a>
 								<header>
 									<h2>KAIRAT ZHANSAYA</h2>
-	<audio controls autoplay>
+	                                      <audio controls>
   
-  <source src="./assets/music/222.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
+                                             <source src="./assets/music/222.mp3" type="audio/mpeg">
+                                                      Your browser does not support the audio element.
+                                                      </audio>
 									<p>Never let formal education get in the way of your learning.</a></p>
 								</header>
-							</section>
+						</section>
 
 					
                        {%- for post in collections.featured | reverse -%}
@@ -122,7 +137,7 @@ Your browser does not support the audio element.
 									</li>{% endif %}
 							</ul>
 
-					</div> -->
+					  </div> -->
 
 				<!-- Sidebar -->
 					<section id="sidebar">
@@ -201,7 +216,6 @@ Your browser does not support the audio element.
 							<section>
 								<ul class="posts">
 						
-									
 										<article>
 											<header>
 												<h3><a href="{{ post.url }}">{{ post.data.subtitle }}</a></h3>
@@ -209,44 +223,7 @@ Your browser does not support the audio element.
 											</header>
 											<a href="{{ post.url }}" class="image"><img src="{{ post.data.image  }}" alt="{{ imageAlt }}" width="51" height="51" decoding="async" /></a>
 										</article>
-									
-									<!-- <li>
-										<article>
-											<header>
-												<h3><a href="single.html">Convallis maximus nisl mattis nunc id lorem</a></h3>
-												<time class="published" datetime="2015-10-15">October 15, 2015</time>
-											</header>
-											<a href="single.html" class="image"><img src="./images/pic09.jpg" alt="" /></a>
-										</article>
-									</li>
-									<li>
-										<article>
-											<header>
-												<h3><a href="single.html">Euismod amet placerat vivamus porttitor</a></h3>
-												<time class="published" datetime="2015-10-10">October 10, 2015</time>
-											</header>
-											<a href="single.html" class="image"><img src="./images/pic10.jpg" alt="" /></a>
-										</article>
-									</li>
-									<li>
-										<article>
-											<header>
-												<h3><a href="single.html">Magna enim accumsan tortor cursus ultricies</a></h3>
-												<time class="published" datetime="2015-10-08">October 8, 2015</time>
-											</header>
-											<a href="single.html" class="image"><img src="./images/pic11.jpg" alt="" /></a>
-										</article>
-									</li>
-									<li>
-										<article>
-											<header>
-												<h3><a href="single">Congue ullam corper lorem ipsum dolor</a></h3>
-												<time class="published" datetime="2015-10-06">October 7, 2015</time>
-											</header>
-											<a href="single.html" class="image"><img src="./images/pic12.jpg" alt="" /></a>
-										</article>
-									</li> -->
-									
+												
 								</ul>
 							</section>
                                   {%- endif %}
@@ -260,9 +237,9 @@ Your browser does not support the audio element.
 								</ul>
 							</section>
 
-					</section>
-                </div>
-			</div>
+					   </section>
+                   </div>
+		</div>
 
 		<!-- Scripts -->
 			<script src="/assets/js/jquery.min.js"></script>

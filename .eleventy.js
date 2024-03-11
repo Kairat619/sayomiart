@@ -2,7 +2,7 @@
 const { DateTime } = require('luxon');
 const Image = require("@11ty/eleventy-img");
 const path = require('path');
-
+const { execSync } = require('child_process')
 
 // allows the use of {% image... %} to create responsive, optimised images
 // CHANGE DEFAULT MEDIA QUERIES AND WIDTHS
@@ -72,8 +72,15 @@ eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
   });
  
-
-
+  //
+  eleventyConfig.addCollection("posts", function(collection) {
+    return collection.getFilteredByGlob("posts/**/*.md")
+})
+// We want to run the PageFind CLI after the site has been built so we use the after Eleventy event 
+// and run the command with execSync on all HTML files in the built site:
+  eleventyConfig.on('eleventy.after', () => {
+    execSync(`npx pagefind --source public --bundle-dir pagefind --glob \"**/*.html\"`, { encoding: 'utf-8' })
+})
     // Return your Object options:
     return {
       dir: {
