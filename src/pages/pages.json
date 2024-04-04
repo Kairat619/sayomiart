@@ -4,7 +4,7 @@
         "data": "collections",
         "size": 6,
         "alias":"posts",
-        "collections":["post","featured","lorem","ipsum","feugiat","tempus"],
+        "collections":["post","featured","design","fashion","game","music"],
         "reverse":"true"
              
 

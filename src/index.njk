@@ -62,8 +62,8 @@ pagination:
 										<li><a href="{{ post.url }}" class="button large">Continue Reading</a></li>
 									</ul>
 									<ul class="stats">
-										<li><a href="#">General</a></li>
-										<li><a href="#" class="icon solid fa-heart">28</a></li>
+										<li><a href="#">{{ post.data.tags | reverse  }}</a></li>
+										<li><a href="#" class="icon solid fa-heart">like me</a></li>
 										
 									</ul>
 								</footer>
@@ -161,7 +161,7 @@ pagination:
 										<article class="mini-post">
 											<header>
 												<h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-												<time class="published" datetime="">{{ post.data.date | postDate}}</time>
+												<time class="published" datetime="">{{ post.data.tags}}</time>
 												<a href="#" class="author"><img src="{{ post.data.avatar }}" alt="" /></a>
 											</header>
 											<a href="{{ post.url }}" class="image"><img src="{{ post.data.image  }}" alt="{{ imageAlt }}" width="351" height="176" decoding="async" /></a>
@@ -174,7 +174,7 @@ pagination:
 										<article class="mini-post">
 											<header>
 												<h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-												<time class="published" datetime="">{{ post.data.date | postDate}}</time>
+												<time class="published" datetime="">{{ post.data.tags }}</time>
 												<a href="#" class="author"><img src="{{ post.data.avatar }}" alt="" /></a>
 											</header>
 											<a href="{{ post.url }}" class="image"><img src="{{ post.data.image  }}" alt="{{ imageAlt }}" width="351" height="176" decoding="async" /></a>
@@ -187,7 +187,7 @@ pagination:
 										<article class="mini-post">
 											<header>
 												<h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-												<time class="published" datetime="">{{ post.data.date | postDate}}</time>
+												<time class="published" datetime="">{{ post.data.tags }}</time>
 												<a href="#" class="author"><img src="{{ post.data.avatar }}" alt="" /></a>
 											</header>
 											<a href="{{ post.url }}" class="image"><img src="{{ post.data.image  }}" alt="{{ imageAlt }}" width="351" height="176" decoding="async" /></a>
@@ -200,7 +200,7 @@ pagination:
 										<article class="mini-post">
 											<header>
 												<h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-												<time class="published" datetime="">{{ post.data.date | postDate}}</time>
+												<time class="published" datetime="">{{ post.data.tags }}</time>
 												<a href="#" class="author"><img src="{{ post.data.avatar }}" alt="" /></a>
 											</header>
 											<a href="{{ post.url }}" class="image"><img src="{{ post.data.image  }}" alt="{{ imageAlt }}" width="351" height="176" decoding="async" /></a>
