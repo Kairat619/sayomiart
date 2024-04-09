@@ -57,6 +57,29 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/_redirects");
   eleventyConfig.addPassthroughCopy({ "./src/robots.txt": "/robots.txt" });
 
+   //11ty, nunjucks, tag counts https://claytonerrington.com/blog/11ty-nunjucks-tag-count/
+    eleventyConfig.addCollection("tagList", collection => {
+      const tagsObject = {}
+      collection.getAll().forEach(item => {
+        if (!item.data.tags) return;
+        item.data.tags
+          .filter(tag => !['post', 'all'].includes(tag))
+          .forEach(tag => {
+            if(typeof tagsObject[tag] === 'undefined') {
+              tagsObject[tag] = 1
+            } else {
+              tagsObject[tag] += 1
+            }
+          });
+      });
+  
+      const tagList = []
+      Object.keys(tagsObject).forEach(tag => {
+        tagList.push({ tagName: tag, tagCount: tagsObject[tag] })
+      })
+    return tagList.sort((a, b) => b.tagCount - a.tagCount)
+  });
+
 // open on npm start and watch CSS files for changes - doesn't trigger 11ty rebuild
 eleventyConfig.setBrowserSyncConfig({
   open: true,

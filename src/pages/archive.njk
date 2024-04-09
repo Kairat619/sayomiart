@@ -11,7 +11,13 @@ layout: "base.njk"
         <section id="intro">
 			
 			<header>
-			   <h2>All Posts Here</h2>
+			   <h2>All Posts Here
+             {% set postCount = 0 %}
+             {% for post in collections.post %}
+             {% set postCount = postCount + 1 %}
+             {% endfor %}
+  <small> (total {{ postCount }} posts)</small>
+			   </h2>
 			   <p>Erat nam at lectus urna duis convallis convallis</a></p>
 			</header>
 		</section>
